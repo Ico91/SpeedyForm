@@ -1,15 +1,5 @@
-form {
-  background: linear-gradient(top, #fff, #f8f8f8);
-  border: 1px solid #d0d2d5;
-  border-bottom: 1px solid #bebfc2;
-  border-radius: 4px;
-  margin: 0 0 20px 0;
-  padding: 20px;
-  width: 212px;
-}
 label {
   color: #404853;
-  display: block;
   font-weight: bold;
 }
 input {
@@ -19,7 +9,11 @@ input {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #fff;
   color: #555;
   font: 13px/20px 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
-  margin: 0 0 20px 0;
   padding: 5px;
   width: 200px;
+}
+
+td {
+  text-align: right;
+  vertical-align:center;
 }
